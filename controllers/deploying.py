@@ -24,7 +24,7 @@ class Deploy():
             #compose up
             try:
                 if not commands.execute('docker-compose up -d', \
-                                    cwd=os.path.join(path, 'package'), \
+                                    cwd=os.path.join(path, 'package/package'), \
                                     stdout=os.path.join(path, 'compose_log.txt'), \
                                     errout=os.path.join(path, 'compose_err_log.txt'),
                                     background=True):
