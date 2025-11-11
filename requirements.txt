@@ -7,3 +7,5 @@ ipython==3.0.0
 pymongo==2.8
 wsgiref==0.1.2
 requests
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
